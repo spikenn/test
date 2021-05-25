@@ -1,4 +1,7 @@
-﻿**python manage.py createsuperuser**
+﻿
+ **python manage.py makemigrations task**
+ **python manage.py migrate**
+ **python manage.py createsuperuser**
 
 **python manage.py createrecords --user <id пользователя. Default: 1> --records <количество рекордов. Default: 100>** - сгенерировать рекорды
 
